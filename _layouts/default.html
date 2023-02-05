@@ -20,8 +20,9 @@
       }
       function darkMode(x) {
 	  var element = document.body;
+	  var icon = $(this).find("i");
 	  element.classList.toggle("dark-mode");
-	  x.classList.toggle("fa-sun-o fa-moon-o");
+	  icon.classList.toggle("fa-sun-o fa-moon-o");
       }
     </script>
     <!--[if lt IE 9]>
