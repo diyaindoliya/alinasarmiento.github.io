@@ -8,6 +8,10 @@ body {
   color:#595959;
   font-weight:400;
 }
+.dark-mode {
+  background-color: #2A3136;
+  color: #EBEBEB;
+}
 
 h1 {
   color:#267CB9;
@@ -58,7 +62,6 @@ h1 {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("about"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
