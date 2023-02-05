@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-      function myFunction() {
+      function menuBar() {
 	  var x = document.getElementById("myTopnav");
 	  if (x.className === "topnav") {
 	      x.className += " responsive";
@@ -18,16 +18,22 @@
 	      x.className = "topnav";
 	  }
       }
+      function darkMode(x) {
+	  var element = document.body;
+	  element.classList.toggle("dark-mode");
+	  x.classList.toggle("fa fa-sun-o");
+      }
     </script>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]--> 
     <div class="topnav" id="myTopnav">
-      <a href="https://alinasarmiento.github.io/about_me.html" class="active">about</a>
+      <a href="javascript:void(0);" class="fa fa-moon-o" onclick="darkMode(this)">
+      <a href="https://alinasarmiento.github.io/about_me.html">about</a>
       <a href="https://alinasarmiento.github.io/art.html">art</a>
       <a href="https://alinasarmiento.github.io/in_class.html">in class</a>
       <a href="https://alinasarmiento.github.io/research.html">research</a>	
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="menuBar()">
 	<i class="fa fa-bars"></i>
       </a>
     </div>
