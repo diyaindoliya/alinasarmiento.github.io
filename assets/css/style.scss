@@ -16,6 +16,9 @@ body {
 h1 {
   color:#267CB9;
 }
+body.dark-mode h1{
+  color: #FFFBDB;
+}
 
 .unstyled-button {
   border: none;
@@ -24,7 +27,7 @@ h1 {
 }
 
 .topnav {
-  color:#267CB9;
+  color:h1.color;
   overflow: hidden;
   margin:0px;
   margin-right:100px;
@@ -39,7 +42,6 @@ h1 {
   text-align: center;
   padding: 10px 10px;
   margin-right: 25px;
-  color:#267CB9;
   line-height:1.1;
   font-size:28px;
   font-weight: 500;
