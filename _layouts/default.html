@@ -18,19 +18,18 @@
 	      x.className = "topnav";
 	  }
       }
-      function darkMode() {
+      function darkMode(x) {
 	  var element = document.body;
 	  element.classList.toggle("dark-mode");
+	  x.classList.toggle("fa fa-sun-o");
       }
-      function darkButton(x) {
-	  x.classList.toggle("fa-sun-o");
-      }
+
     </script>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]--> 
     <div class="topnav" id="myTopnav">
-      <a href="javascript:void(0);" class="fa fa-moon-o" onclick="darkMode()"></a>
+      <i class="fa fa-moon-o" onclick="darkMode(this)"></i>
       <a href="https://alinasarmiento.github.io/about_me.html">about</a>
       <a href="https://alinasarmiento.github.io/art.html">art</a>
       <a href="https://alinasarmiento.github.io/in_class.html">in class</a>
