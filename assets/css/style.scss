@@ -17,7 +17,7 @@ h1 {
   color:#267CB9;
 }
 body.dark-mode h1{
-  color: #FFFBDB;
+  color:#FFFBDB;
 }
 
 .unstyled-button {
@@ -27,13 +27,16 @@ body.dark-mode h1{
 }
 
 .topnav {
-  color:h1.color;
+  color:#267CB9;
   overflow: hidden;
   margin:0px;
   margin-right:100px;
   line-height:1.1;
   font-size:28px;
   font-weight: 500;
+}
+body.dark-mode .topnav {
+  color:#FFFBDB;
 }
 
 /* Style the links inside the navigation bar */
