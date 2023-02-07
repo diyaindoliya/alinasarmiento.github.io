@@ -1,13 +1,11 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-<br>
-<br>
 
 # projects
 ### 2.671 Measurement and Instrumentation
 I made a bunch of people lift pringle cans and characterized their motor responses as affected by memory and cognition.
 
 Final project poster:
-<iframe src="/assets/T_22_Sarmiento_GripFroce.pdf"></iframe>
+<iframe width=100% height=56% src="/assets/T_22_Sarmiento_GripFroce.pdf"></iframe>
 
 Paper imminent! Stay tuned...
 
