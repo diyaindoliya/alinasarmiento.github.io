@@ -21,7 +21,15 @@
       function darkMode(x) {
 	  var element = document.body;
 	  element.classList.toggle("dark-mode");
-	  x.classList.toggle("fa fa-sun-o");
+	  if (x.classList.contains("fa-sun-o")) {
+	    x.classList.remove("fa-sun-o");
+	    x.classList.add("fa-moon-o");
+	  } else {
+	    x.classList.remove("fa-moon-o");
+	    x.classList.add("fa-sun-o");
+	  }
+  	  var image = document.querySelector("siteLogo");
+	  image.src = "assets/dark_logo.png";
       }
 
     </script>
