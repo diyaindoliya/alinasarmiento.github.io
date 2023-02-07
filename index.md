@@ -2,7 +2,7 @@
 
 # [hello there!](https://www.youtube.com/watch?v=rEq1Z0bjdwc)
 
-<img id="siteLogo" src='assets/site_logo.png' alt='headshot' width='300'/>
+<b<img src='assets/site_logo.png' alt='headshot' width='300'/>/b>
 
 I'm Grey! I'm an undergrad in mechanical engineering + robotics at MIT. Currently working on deep learning for robotic manipulation with the [Improbable AI Group](https://people.csail.mit.edu/pulkitag/) and on sensorizing soft robots with the [Distributed Robotics Lab](https://www.csail.mit.edu/research/distributed-robotics-laboratory) at MIT CSAIL. [(read more about me)](https://alinasarmiento.github.io/about_me.html)
 
