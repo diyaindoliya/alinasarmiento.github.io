@@ -5,7 +5,7 @@
 I made a bunch of people lift pringle cans and characterized their motor responses as affected by memory and cognition.
 
 Final project poster:
-<iframe style="width=100%; height=56%;" src="/assets/T_22_Sarmiento_GripFroce.pdf"></iframe>
+<iframe style="width=400; height=200;" src="/assets/T_22_Sarmiento_GripFroce.pdf"></iframe>
 
 Paper imminent! Stay tuned...
 
@@ -19,6 +19,7 @@ Check out my team's [lab projects](https://rss2022-14.github.io/website/labs/) f
 
 # relevant coursework
 ### Mechanical Engineering (MIT Course 2)
+- 2.007 Design and Manufacturing I - Amos Winter and the Pappalardo crew
 - 2.671 Measurement and Instrumentation - Barbara Hughey, John Leonard, Peter So
 - 2.005 Thermal Fluids Engineering - Asegun Henry
 - 2.003/2.004 Dynamics and Control I and II - Thomas Peacock, Domatilla Del Vecchio
@@ -26,12 +27,14 @@ Check out my team's [lab projects](https://rss2022-14.github.io/website/labs/) f
 - 2.678 Electronics for Mechanical Systems - Daniel Frey
 
 ### Computer Science (MIT Course 6)
+- 6.832 Underactuated Robotics - Russ Tedrake
 - 6.843 Robotic Manipulation - Russ Tedrake
 - 6.141 Robotics: Science and Systems - Luca Carlone
 - 6.S090 Deep Learning for Control - Pulkit Agrawal
 - 6.036 Introduction to Machine Learning - Leslie Kaelbling
 
 ### Mathematics (MIT Course 18)
+- 18.100B Real Analysis - Giada Franz
 - 18.03 Differential Equations - Jorn Dunkel
 - 18.06 Linear Algebra - Steven Johnson
 - 18.062J/6.042 Mathematics for Computer Science - Tom Leighton, Ankur Moitra
@@ -40,3 +43,4 @@ Check out my team's [lab projects](https://rss2022-14.github.io/website/labs/) f
 - 21G.501 Japanese I
 - 21G.502 Japanese II
 - 21G.503 Japanese III
+- 21G.504 Japanese IV
